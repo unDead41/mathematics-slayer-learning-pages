@@ -1,0 +1,1 @@
+export{t as MATHEMATICS_SLAYER_PROJECT,n as createSharedSupabaseClient}from"./client-D8zGK9J5.js";

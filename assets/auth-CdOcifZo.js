@@ -1,0 +1,1 @@
+var e=`/auth/callback`,t=`auth_callback`;function n(e){let n=new URL(e);if(n.protocol!==`http:`&&n.protocol!==`https:`)throw Error(`Unsupported application origin`);return n.search=``,n.hash=``,n.searchParams.set(t,`1`),n.href}export{e as n,n as r,t};
